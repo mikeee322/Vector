@@ -8,7 +8,7 @@ struct Vector {
 
   private:
     T* data;
-    size_t size_, cap;
+    size_t size_, capasity_;
   };
 }
 #endif
